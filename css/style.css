@@ -1,0 +1,290 @@
+body {
+    padding-top:70px;
+    overflow:hidden  /* to hide scroll*/
+}
+.navbar { min-height: 70px;}
+ 
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#d1bfbf;
+    padding-top: 25px;
+    padding-bottom: 25px;
+        font-size: 18px;
+}
+.navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+    padding-top: 25px;
+    padding-bottom:25px;
+    font-size: 24px;
+}
+
+ .dropdown-menu {
+    background-color:#5d5058;
+        color:#fff;
+      
+}
+.navbar-right .dropdown-menu { left:0;
+    right:auto; }
+.dropdown-menu > li > a{ transition:padding 0.5s ease;}
+
+.dropdown-menu > li > a:hover{
+    color:#fff;
+    padding-left:50px;
+   
+}
+.dropdown-menu > li > a{
+    color:#9586ce;
+    font-size:16px;
+}
+.dropdown-menu .divider {
+    background-color:#9586ce;
+}
+
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    line-height: 1;
+    height: 600px; width:100%}
+
+.carousel-caption {    bottom: 198px;}
+.carousel-indicators .active {  border:1px solid #eee}
+/*    start testimonial   */ 
+
+section.testi {
+    padding:50px 0;
+    
+}
+.testi .item h2 { font-weight:bold}
+.testi .item p {
+    line-height:2em;
+}
+.testi .item span {
+    font-size:18px;
+    font-weight:bold;
+}
+.testi .carousel-indicators {
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top:20px;
+}
+.testi .carousel-indicators li {
+    width:80px;
+    height:80px;
+    background:none;
+    border:2px solid #fff;
+    text-indent:0px;
+    border-radius:50%;
+    margin-right:2px;
+    opacity:0.5;
+    transition:all 0.5s ease;
+}
+.testi .carousel-indicators li.active {
+       opacity:1;
+}
+.testi .carousel-indicators li img {
+    max-width:100%;
+    border-radius:50%;
+  }
+/*end testimonial*/
+/*start price table*/
+section.price {
+    background:#ddd;
+    padding:50px 0;
+}
+section.price h1 {
+    margin-bottom:40px;
+    font-weight:bold;
+}
+section.price .price-box {
+    background:#fff;
+    margin-bottom:20px;
+    padding:10px;
+}
+section.price .price-box:hover p{
+    transform:scale(1.2) rotate(360deg)
+}
+section.price .price-box h2 {margin:5px 0 10px;}
+section.price .price-box p {font-size:30px; font-weight:bold;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    line-height: 80px;
+    border-radius: 50%;
+    background: #e1d2d2;
+        transition: all 0.7s ease;
+}
+section.price .price-box ul {margin-top: 10px;}
+
+section.price .price-box ul li {line-height:2;}
+section.price .price-box a {margin-bottom:5px;}
+/*end testimonial*/
+/*start sign*/
+section.sign {background:#ddd; padding-top:50px; padding-bottom:70px; margin-top:20px;}
+/*section.sign form {display:inline;}*/
+section.sign .h1 {color:#7e7474;font-weight:bold;padding-bottom: 10px}
+section.sign p.lead {margin-bottom: 30px;}
+section.sign form input.input-lg {
+    border-radius:0px;
+    width: 300px;
+    margin-right: -4px;display:inline;
+}
+section.sign form input.input-lg::placeholder { 
+  
+ text-transform: capitalize;
+    font-size:18px;
+}
+section.sign form input.btn-lg{
+    border-radius: 0px;
+    padding: 10px 16px;
+}
+/*end sign*/
+
+/*start statistics*/
+section.statistics {
+    background:url('../../image/keyboard.jpg') no-repeat center center fixed; 
+    background-size:cover;
+    min-height:300px;
+}
+section .over {
+    background:rgba(2,2,2,0.7);
+    height:100%;
+    color:#f3d7d7;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+section.statistics .h1 {
+    padding-bottom: 40px;
+}
+section.statistics .item p {
+    margin-top: 10px;
+    font-size: 30px
+}
+section.statistics .item i {transition: all 0.5s ease;}
+
+section.statistics .item:hover i {
+    color:#fff;
+    transform:scale(1.1,1.1);
+}
+
+/*end statistics*/
+/*start skills*/
+section.skills {padding-top:50px; padding-bottom:70px}
+.skills .progress{height:29px; }
+.skills .progress-bar {text-align: left;text-indent:10px; font-size:15px;line-height:29px }
+.skills .h1 {
+        margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.skills .about h3 {
+        margin-top: 0;
+    font-weight: bold
+}
+.skills .about p.lead {line-height: 1.2;}
+  /*end skills*/ 
+/*start contact-us*/
+section.contact {
+    background:url('../../image/maxresdefault.jpg') no-repeat center center fixed;
+    background-size:cover;
+   min-height:300px;
+}
+section.contact p {margin-bottom: 20px;
+    font-size: 15px;}
+section.contact textarea { height: 113px;}
+section.contact button { margin-top: 14px;}
+section.contact .form-control  {background-color:#4a4444;color:#fff;}
+/*end contact-us*/
+/*start page loading*/
+
+.loading-overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#333;
+    z-index:9999;
+    color:#fff;    
+}
+.spinner {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: 300px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+/*end page loading*/
+/*start theme*/
+
+.theme .gear {
+    position:fixed;
+    top:100px;
+    overflow:hidden;
+    
+    
+}
+.theme .gear .color-option {;border: 2px solid #00f;float:left; background:#333;color:#fff;width:130px;height:80px;display:none;}
+.theme .gear .color-option ul {overflow:hidden; }
+
+.theme .gear ul li {
+    width:20px;
+    height:20px;
+    background:#00f;
+    float:left;
+    margin:5px;
+    cursor:pointer;
+    
+}
+.theme .gear i {
+    float:left;
+    color:#fff;
+    background:#00f;
+    border: 2px solid #00f;
+    cursor:pointer;
+}
+/*end theme*/
+
+/*start arrow-top*/
+
+.arrow-top {
+    position:fixed;
+    right:15px;
+    bottom:10px;
+}
+.arrow-top i {  cursor:pointer; display:none;}
+   
+/*end arrow top*/

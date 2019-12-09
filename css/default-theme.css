@@ -1,0 +1,19 @@
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.carousel-indicators .active
+{
+    background-color:#95355d;
+    
+}
+.navbar-inverse .navbar-brand span,
+.testi .item h2,
+.testi .item span,
+.arrow-top i 
+{
+    color:#95355d;
+}
+
+.navbar-right .dropdown-menu{border-top:1px solid #95355d}
+.testi .carousel-indicators li.active {border:2px solid #95355d;}

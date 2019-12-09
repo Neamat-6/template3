@@ -1,0 +1,26 @@
+.breadcrump-holder {background-color: #f5f5f5; height: 40px;}
+.breadcrump{margin-bottom: 0px;}
+.panel-group h2 {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:-1px;
+    margin-bottom:40px;
+    text-align:center;
+    font-size:60px;
+}
+.panel-group h2 ~ hr {width:70%;margin-top: 10px;
+    margin-bottom: 10px;     border-top: 1px solid #c8b6b6;}
+.panel-group p {
+    font-family:  sans-serif;
+    text-align:center;
+}
+.panel-heading a:after {
+ font-family: "Glyphicons Halflings";
+    float:right;
+    color:#444;
+    content:"\e114"
+    
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+    color:#888;
+}

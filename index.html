@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+<!-- Meta for IE9-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<!--    first mobile meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap </title>
+  <link rel='stylesheet' href='css/bootstrap.css'>     <!--include sheet icons and normalize-->
+    <link rel='stylesheet' href='css/font-awesome.min.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='stylesheet' href='css/hover.css'>
+    <link rel='stylesheet' href='css/default-theme.css'>
+    <link rel='stylesheet' href='css/animate.min.css'>
+    <!--[if lt IE 9]-->
+	<script src='js/html5shiv.min.js'></script>    <!-- to understand html5 tags IE9 -->
+    <script src='js/respond.min.js'></script>      <!-- to understand media query css3 IE9 -->
+<!--[endif]-->
+    
+    </head>
+    <body>
+<!--  start navbar      -->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand hvr-pop " href="#">Nana<span>.Inc</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+      
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+        
+<!--  start carousal      -->
+        <div id="myslide" class="carousel slide" data-ride="carousel">
+            <div class='container'>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myslide" data-slide-to="0" class="active"></li>
+    <li data-target="#myslide" data-slide-to="1"></li>
+    <li data-target="#myslide" data-slide-to="2"></li>
+     <li data-target="#myslide" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/1920x1200-darken.jpg"  alt="1920">
+      <div class="carousel-caption">
+       <h2>Web Design</h2>
+        <p class='lead'>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="image/nana.png"  alt="1">
+      <div class="carousel-caption">
+         <h2>Web Design</h2>
+        <p class='lead'>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+      </div>
+    </div>
+       <div class="item">
+      <img src="image/06.jpg"  alt="1920">
+      <div class="carousel-caption">
+         <h2>Web Design</h2>
+        <p class='lead'>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>
+      </div>
+    </div>
+       <div class="item">
+      <img src="image/web_shadow_glare_dark_49402_1920x1200.jpg"  alt="1920">
+      <div class="carousel-caption">
+       <h2>Web Design</h2>
+        <p class='lead'>Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally decided not to include jQuery-based fallbacks for the transitions.</p>  
+      </div>
+    </div>
+   
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div> 
+        
+        
+<!-- strat testimonial   -->
+        <section class='testi text-center'>
+            <div class='container'>
+        <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner "  role="listbox">
+    <div class="item active wow jello" data-wow-duration='2s' data-wow-offset='100'>
+        <h2 class='hvr-grow'>What Our Clients Say</h2>
+     <p class='lead'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      <span>Nana Gamal</span>  
+    </div>
+    <div class="item wow jello" data-wow-duration='2s' data-wow-offset='100'>
+        <h2>What Our Clients Say</h2>
+      <p class='lead'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      <span>Osama Elzero</span>  
+    </div>
+      <div class="item wow jello" data-wow-duration='2s' data-wow-offset='100'>
+          <h2>What Our Clients Say</h2>
+      <p class='lead'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      <span>Ahmed Mohamed</span>  
+    </div>
+      <div class="item wow jello" data-wow-duration='2s' data-wow-offset='100'>
+          <h2>What Our Clients Say</h2>
+      <p class='lead'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+      <span>Jehad Mohamed</span>  
+    </div>
+  </div>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+    <li data-target="#carousel-testimonial" data-slide-to="0" class="active">
+      <img src='image/char4.png' alt='Nana'>          
+    </li>
+    <li data-target="#carousel-testimonial" data-slide-to="1">
+         <img src='image/char1.png' alt='Nana'> 
+    </li>
+    <li data-target="#carousel-testimonial" data-slide-to="2">
+                 <img src='image/char2.png' alt='Nana'> 
+      </li>
+      <li data-target="#carousel-testimonial" data-slide-to="3">
+            <img src='image/char3.jpg' alt='Nana'>      
+     </li>
+  </ol>
+</div>
+   </div>
+   </section>
+<!--  end testimonials  -->
+<!--  start price table     -->
+        <section class='price text-center'>
+        <div class='container'>
+            <h1>Our Amazing Price</h1>
+            <div class='row'>
+           
+                <div class='col-md-3 col-sm-6'>
+                    <div class='price-box wow fadeInUp' data-wow-duration='1s'  data-wow-offset='200' >
+                   <h2 class='text-primary'>Hosting</h2>
+                        <p>40$</p>
+                        <ul class='list-unstyled'>
+                        <li >Space: 30GB</li>
+                            <li >Emails: 10</li>
+                            <li >IPs:2IP</li>
+                            <li >DataBase: 10</li>
+                        </ul>
+                        <a href='#' class='btn btn-primary'>Order Now</a>
+                    </div>
+                
+                </div>
+                <div class='col-md-3 col-sm-6'>
+                    <div class='price-box wow fadeInDown' data-wow-duration='1s'  data-wow-offset='200' >
+                     <h2 class='text-info'>VGS</h2>
+                        <p>50$</p>
+                        <ul class='list-unstyled'>
+                        <li>Space: 30GB</li>
+                            <li>Emails: 10</li>
+                            <li>IPs:2IP</li>
+                            <li>DataBase: 10</li>
+                        </ul>
+                        <a href='#' class='btn btn-info'>Order Now</a>
+                    </div>
+                
+                </div>
+                <div class='col-md-3 col-sm-6'>
+                    <div class='price-box wow fadeInDown' data-wow-duration='1s'  data-wow-offset='200' >
+                    <h2 class='text-success'>Dedicated</h2>
+                        <p>60$</p>
+                        <ul class='list-unstyled'>
+                        <li>Space: 30GB</li>
+                            <li>Emails: 10</li>
+                            <li>IPs:2IP</li>
+                            <li>DataBase: 10</li>
+                        </ul>
+                        <a href='#' class='btn btn-success'>Order Now</a>
+                    </div>
+                
+                </div>
+                <div class='col-md-3 col-sm-6'>
+                    <div class='price-box wow fadeInUp' data-wow-duration='1s'  data-wow-offset='200' >
+                     <h2 class='text-warning'>Cloud</h2>
+                        <p>90$</p>
+                        <ul class='list-unstyled'>
+                        <li>Space: 30GB</li>
+                            <li>Emails: 10</li>
+                            <li>IPs:2IP</li>
+                            <li>DataBase: 10</li>
+                        </ul>
+                        <a href='#' class='btn btn-warning'>Order Now</a>
+                    </div>
+                
+                </div>
+                </div>
+                </div>
+        </section>
+<!--     start sign   -->
+        <section class='sign text-center'>
+            <div class='container'>
+                <h2 class='h1'>Keep In Touch</h2>
+                <p class='lead'>sign up for newsletter don't worry about spam we hate it too </p>
+                <form class='form-inline'>
+                <input class='form-control input-lg' type='emeil' placeholder='type your email'>
+                    <input class='btn btn-danger btn-lg' type='submit' value='subscripe'>
+                </form>
+                    
+            </div>
+            </section>
+<!--     start statistics   -->
+        <section class='statistics text-center'>
+        <div class='over'>
+            <div class='container'>
+            <h2 class='h1'>Our Main Statistics</h2>
+                <div class='row'>
+                <div class='col-md-3 col-sm-6 wow fadeInDown' data-wow-duration='1.5s' data-wow-delay='0.5s' data-wow-offset='100'>
+                    <div class=item>
+                    <i class="fa fa-users fa-5x"></i>
+                    <p>9,550</p>
+                    </div>
+                    </div>
+                 <div class='col-md-3 col-sm-6 wow fadeInDown'data-wow-duration='1.5s' data-wow-delay='0.8s' data-wow-offset='100'>
+                     <div class='item'>
+                    <i class="fa fa-comments fa-5x"></i>
+                     <p>24,300</p>
+                    </div>
+                    </div>
+                     <div class='col-md-3 col-sm-6 wow fadeInDown'data-wow-duration='1.5s' data-wow-delay='1.1s' data-wow-offset='100'>
+                         <div class='item'>
+                   <i class="fa fa-suitcase fa-5x"></i>
+                         <p>3,260</p>
+                    </div>
+                         </div>
+                     <div class='col-md-3 col-sm-6 wow fadeInDown'data-wow-duration='1.5s' data-wow-delay='1.4s' data-wow-offset='100'>
+                         <div class='item'>
+                    <i class="fa fa-picture-o fa-5x"></i>
+                         <p>30,500</p>
+                    </div>
+                   </div>
+                </div>    
+            </div>
+            </div>
+        </section>
+<!--   strat skills     -->
+        <section class='skills'>
+        <div class='container'>
+            <h2 class='h1 text-center'>Our Skills</h2>
+            <div class='col-md-5'>
+            <div class='progress'>
+                <div class='progress-bar progress-bar-success progress-bar-striped active ' role='prgressbar' aria-valuenow='80' aria-valuemin='0' aria-valuemax='100' style='width:80%'>
+                    HTML/CSS
+                </div>
+                </div>
+                <div class='progress'>
+                <div class='progress-bar progress-bar-danger progress-bar-striped' role='progressbar' aria-valuenow='70' aria-valuemin='0' aria-valuemax='100' style='width:70%'> PHP</div>
+                </div>
+                <div class='progress'>
+                <div class='progress-bar progress-bar-warning progress-bar-striped' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='100' style='width:60%'> JavaScript</div>
+                </div>
+                 <div class='progress'>
+                <div class='progress-bar progress-bar-info progress-bar-striped' role='progressbar' aria-valuenow='60' aria-valuemin='0' aria-valuemax='90' style='width:90%'> Bootstrap</div>
+                </div>
+                
+            </div>
+            <div class='col-md-6 col-md-offset-1'>
+                <div class='about'>
+                <h3>About The Team</h3>
+                <p class='lead'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+                    <button class='btn btn-primary'>Talks With Professional</button>
+                </div>
+            </div>
+            </div>
+            </section>
+<!--  start contact-us      -->
+        <section class='contact text-center'>
+        <div class='over'>
+            <div class='container'>
+                <i class="fa fa-phone-square fa-5x" aria-hidden="true"></i>
+                <h2 class='h1'>Tell Us What You Feel</h2>
+                <p>Don't Hestate To Call Us</p>
+                <div class='row'>
+                <div class='col-md-5 wow bounceInLeft' data-wow-duration='0.5s' data-wow-offset='100'>
+                    <form role='form'>
+                        <div class='form-group'>
+                    <input class='form-control input-lg' type='text' placeholder='Type Your Name'>
+                            </div>
+                        <div class='form-group'>
+                        <input class='form-control input-lg'  type='email' placeholder='Type Your Mail'>
+                            </div>
+                            <div class='form-group'>
+                        <input class='form-control input-lg'  type='tel' placeholder='Cell Phone'>
+                            </div>
+                    </form>
+                    
+                    </div>
+                    <div class='col-md-6 col-md-offset-1 wow bounceInRight' data-wow-duration='0.5s' data-wow-offset='100'>
+                    <form role='form'>
+                        <textarea class='form-control input-lg' placeholder='Your Message'></textarea>
+                        <button class='btn btn-primary btn-lg btn-block'>Contact Us</button>
+                        </form>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </section>
+<!--  start lodaing-overlay page      -->
+        <section class='loading-overlay'>
+           <div class="spinner">
+  <div class="double-bounce1"></div>
+  <div class="double-bounce2"></div>
+</div>
+        
+        </section>
+<!--  end loading-overlay-page      -->
+<!--   start theme box     -->
+       <section class='theme'>
+        <div class='gear'>
+            <div class='color-option'>
+            <h6>color option</h6>
+           <ul class='list-unstyled'>
+            <li data-value='css/default-theme.css'></li>
+            <li data-value='css/blue-theme.css'></li>
+            <li data-value='css/yellow-theme.css'></li>
+            </ul>
+                </div>
+           <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+           </div>
+           
+        </section> 
+<!--  end theme box      -->
+<!--   start scroll top arrow     -->
+        <div class='arrow-top'>
+        <i class="fa fa-arrow-circle-up fa-3x" aria-hidden="true"></i>
+        </div>
+<!--   end scroll top arrow     -->
+        
+    <script src='js/jquery-3.4.1.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <script src='js/custom.js'></script>
+        <script src='js/wow.min.js'></script>
+        <script>new WOW().init();</script>
+    </body>
+
+
+</html>
